@@ -1,0 +1,19 @@
+{
+  "name": "node.js-mysql",
+  "version": "1.0.0",
+  "description": "An Amazon-like store front app that takes in orders from customers and deplete stock from the store's inventory.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GPHenderson/Node.js-MySQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GPHenderson/Node.js-MySQL/issues"
+  },
+  "homepage": "https://github.com/GPHenderson/Node.js-MySQL#readme"
+}
