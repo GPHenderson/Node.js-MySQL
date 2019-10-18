@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
 
     // Password
     password: "Fullstack2019",
-    database: "bamazon"
+    database: "bamazon_db"
 });
 
 connection.connect(function(err) {
