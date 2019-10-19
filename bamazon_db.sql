@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS bamazon;
-CREATE database bamazon;
+DROP DATABASE IF EXISTS bamazon_db;
+CREATE database bamazon_db;
 
-USE bamazon;
+USE bamazon_db;
 
 CREATE TABLE products (
   item_id INT AUTO_INCREMENT NOT NULL,
@@ -28,4 +28,4 @@ values("watches", "jewlery", 10000, 100),
       ("space heater", "home", 15, 325),
       ("bottle water (40ct case)","food",5,10000);
       
---       SELECT * FROM PRODUCTS
+      SELECT * FROM PRODUCTS
